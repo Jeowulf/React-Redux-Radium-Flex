@@ -21,7 +21,7 @@ class Login extends Component {
 
     //custom functions here- use this.setState() to change the state of the app
     toggleEnabled() {
-        this.setState({ enabled: !this.state.enabled });
+        this.setState({ enabled:  !this.state.enabled });
     }
 
     componentWillMount() {
